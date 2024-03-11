@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel Agency</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Explore the World with Our Travel Agency</h1>
+            <nav class="header-nav">
+                <button class="nav-btn" onclick="scrollToSection('home')">Home</button>
+                <button class="nav-btn" onclick="scrollToSection('destinations')">Destinations</button>
+                <button class="nav-btn" onclick="scrollToSection('packages')">Packages</button>
+                <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to Your Next Adventure</h2>
+            <p>Discover amazing destinations with our travel experts.</p>
+            <a href="#destinations" class="btn" onclick="scrollToSection('destinations')">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-cards">
+            <div class="destination-card">
+                <div class="main-image">
+                    <img src="image/img2.jpg" alt="Destination 1">
+                </div>
+                <h3>Beach Paradise</h3>
+                <p>Relax on pristine beaches with crystal-clear water.</p>
+                <div class="image-scroll">
+                    <img src="image/beach/b1.jpg" alt="Beach Photo 1">
+                    <img src="image/beach/b2.jpg" alt="Beach Photo 2">
+                    <img src="image/beach/b3.jpg" alt="Beach Photo 3">
+                    <img src="image/beach/b4.jpg" alt="Beach Photo 4">
+                    <img src="image/beach/b5.jpg" alt="Beach Photo 5">
+                    <img src="image/beach/b6.jpeg" alt="Beach Photo 6">
+                </div>
+            </div>
+            <div class="destination-card">
+                <div class="main-image">
+                    <img src="image/img3.jpg" alt="Destination 2">
+                </div>
+                <h3>Mountain Retreat</h3>
+                <p>Explore the breathtaking landscapes of the mountains.</p>
+                <div class="image-scroll">
+                    <img src="image/mountain/m1.jpg" alt="Mountain Photo 1">
+                    <img src="image/mountain/m2.jpg" alt="Mountain Photo 2">
+                    <img src="image/mountain/m3.jpg" alt="Mountain Photo 3">
+                    <img src="image/mountain/m4.jpg" alt="Mountain Photo 4">
+                    <img src="image/mountain/m5.webp" alt="Mountain Photo 5">
+                    <img src="image/mountain/m6.jpg" alt="Mountain Photo 6">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <div class="package-cards">
+            <div class="package-card">
+                <h3>All-Inclusive Beach Getaway</h3>
+                <p>7 days in a luxury beach resort with meals and activities included.</p>
+                <span class="price">$1999</span>
+            </div>
+            <div class="package-card">
+                <h3>Mountain Adventure Package</h3>
+                <p>Guided hiking and camping experience in the mountains.</p>
+                <span class="price">$1499</span>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to book your next adventure? Contact us!</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
